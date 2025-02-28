@@ -243,8 +243,8 @@ else if (atn == 6){
 
 	piston.set_value(pistonToggle);
 
-	if (con.get_digital_new_press(E_CONTROLLER_DIGITAL_X)) {
-		driveStraight(1000);
+	if (con.get_digital_new_press(E_CONTROLLER_DIGITAL_UP)) {
+		driveStraight2(750);
 	}
 
 		time += 1;
